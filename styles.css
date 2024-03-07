@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+    margin: auto 100px;
+}
+
+/* Colors Container */
+
+.container {
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.color-container {
+    display: block;
+    margin: auto 10px;
+}
+
+.color-blue {
+    margin: 20px auto;
+    width: 32%;
+    min-height: 100px;
+    background-color: #0000ff;
+    display: inline-block;
+}
+
+.color-blue .color,
+.color-blue .label {
+    color: white;
+    text-align: center;
+}
+
+.color-turquise {
+    margin: 20px auto;
+    width: 32%;
+    min-height: 100px;
+    background-color: #40e0d0;
+    display: inline-block;
+}
+
+.color-turquise .color,
+.color-turquise .label {
+    color: black;
+    text-align: center;
+}
+
+.color-purple {
+    margin: 20px auto;
+    width: 32%;
+    min-height: 100px;
+    background-color: #800080;
+    display: inline-block;
+}
+
+.color-purple .color,
+.color-purple .label {
+    color: white;
+    text-align: center;
+}
+
+.color-lightblue {
+    margin: 20px auto;
+    width: 32%;
+    min-height: 100px;
+    background-color: #add8e6;
+    display: inline-block;
+}
+
+.color-lightblue .color,
+.color-lightblue .label {
+    color: black;
+    text-align: center;
+}
+
+/*  Fonts Container */
+
+h3 {
+    text-decoration: underline;
+}
+
+.font-ojuju {
+    display: inline-block;
+    font-family: ojuju;
+}
+
+.font-madimi-one {
+    display: inline-block;
+    font-family: "madimi one";
+}
+
+.font-oswald {
+    display: inline-block;
+    font-family: oswald;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.style {
+    font-style: italic;
+}
